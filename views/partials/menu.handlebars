@@ -1,0 +1,182 @@
+<!-- --------------------------- -->
+<!-- Início do navbar para p header -->
+<!-- --------------------------- -->
+
+<hr class="container bg-success" />
+<header class="container-fluid">
+  <nav class="nav text-secondary navEntrarCadastrar">
+    <div class="container mt-2" style="font-size: 1rem;">
+      <small>
+        <a href="./index.html" class="text-decoration-none text-dark">Entrar
+          <img class="iconProfile" src="./assets/logout.png" alt="entrar" />
+        </a>
+        &nbsp
+        <span class="border border-dark spanEntrarCadastrar"></span>
+        &nbsp
+        <a href="./cadastro.html" class="text-decoration-none text-dark">Cadastrar
+          <img class="iconProfile-cadastro" src="./assets/Vector.png" alt="entar" />
+        </a>
+      </small>
+    </div>
+  </nav>
+  <!-- --------------------------- -->
+  <!-- Imagem principal -->
+  <!-- --------------------------- -->
+  <nav class="nav navbar navbar-expand-lg justify-content-center">
+    <img src="./assets/logo.png" class="img-fluid h-auto w-50 mt-4 logoheader" alt="" />
+  </nav>
+</header>
+
+<nav class="navbar navbar-expand-lg fs-5 navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="container collapse navbar-collapse text-center" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <!-- Inicio -->
+        <li class="nav-item">
+          <a class="nav-link " aria-current="page" href="home.html">
+            Início</a>
+        </li>
+
+        <!-- A CAPRINU -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle <?php if($page=='about'){echo 'active';}?>" href="acaprinu.html"
+            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            A caprinu
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+            <li><a class="dropdown-item " href="./quemsomos versao 2.html#Quemsomos">Quem somos</a></li>
+            <li><a class="dropdown-item " href="./quemsomos versao 2.html#Missao">Missão</a></li>
+            <li><a class="dropdown-item " href="./quemsomos versao 2.html#Visao">Visão</a></li>
+            <li><a class="dropdown-item " href="./quemsomos versao 2.html#Valores">Valores</a></li>
+            <li><a class="dropdown-item " href="./quemsomos versao 2.html#Objetivos">Objetivos</a></li>
+            <li><a class="dropdown-item " href="./quemsomos versao 2.html#parceiros">Parceiros e Colaboradores</a></li>
+
+          </ul>
+        </li>
+
+        <!-- SOLUÇÕES Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle <?php if($page=='curso'){echo 'active';}?>" aria-current="page"
+            data-bs-toggle="dropdown">
+
+            Soluções
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item " href="./service_para_produtor.html">Para o produtor</a></li>
+            <li><a class="dropdown-item " href="./emconstrucao.html">Para o Agente ATER</a></li>
+            <li><a class="dropdown-item " href="./emconstrucao.html">Para Orgãos</a></li>
+            <li><a class="dropdown-item " href="./biblioteca.html"> Biblioteca</a></li>
+            <li><a class="dropdown-item " href="./cursos.html">Cursos e eventos</a></li>
+            <li><a class="dropdown-item " href="./servicos.html#anuncios">Serviços</a></li>
+
+
+
+
+
+
+          </ul>
+        </li>
+
+
+        <!-- Informações T-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle <?php if($page=='curso'){echo 'active';}?>" aria-current="page"
+            data-bs-toggle="dropdown">
+
+            Especificações Técnicas
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item " href="./a criacao.html">A Criação </a></li>
+            <li><a class="dropdown-item " href="./O Agronegocio.html">O Agronegócio</a></li>
+            <li><a class="dropdown-item " href="./produtosCarneos.html">Produtos Cárneos</a></li>
+
+            <!-- MANUAIS  -->
+
+            <li class="dropdown-item nav-item dropend dropdown-submenu">
+              <a class="dropdown-toggle text-decoration-none text-dark" data-bs-toggle="dropdownMenu2"
+                aria-expanded="false">
+                Manuais
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><a class="text-decoration-none dropdown-item" href="./emconstrucao.html">Manual de Boas Práticas na
+                    Criação Animal (Em breve!)</a></li>
+                <li><a class="text-decoration-none dropdown-item" href="./emconstrucao.html">Manual de Boas Práticas de
+                    abate Caprino e Ovino (Em breve!)</a></li>
+                <li><a class="text-decoration-none dropdown-item" href="./emconstrucao.html">Caderno de Especificações
+                    Técnicas</a></li>
+
+              </ul>
+            </li>
+
+
+
+            <li><a class="dropdown-item " href="./Rumo a certificacao.html"> Rumo a Certificação</a></li>
+
+
+          </ul>
+        </li>
+
+
+
+        <!-- O POLO -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle <?php if($page=='about'){echo 'active';}?>" href="sobre.html"
+            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            A rota
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+            <li><a class="dropdown-item " href="./A rota.html">A Rota do Cordeiro </a></li>
+            <li><a class="dropdown-item " href="./O polo.html">O Polo Itaparica</a></li>
+
+            <li class="dropdown-item nav-item dropend dropdown-submenu">
+              <a class="dropdown-toggle text-decoration-none text-dark" data-bs-toggle="dropdownMenu2"
+                aria-expanded="false">
+                Municipios
+              </a>
+
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <li><a class="text-decoration-none dropdown-item" href="./floresta.html">Floresta</a></li>
+                <li><a class="text-decoration-none dropdown-item" href="#">Belém do São Francisco</a></li>
+                <li><a class="text-decoration-none dropdown-item" href="#">Serra Talhada</a></li>
+                <li><a class="text-decoration-none dropdown-item" href="#">Itacuruba</a></li>
+                <li><a class="text-decoration-none dropdown-item" href="#">Petrolândia</a></li>
+                <li><a class="text-decoration-none dropdown-item" href="#">Tacaratu</a></li>
+                <li><a class="text-decoration-none dropdown-item" href="#">Jatobá</a></li>
+                <li><a class="text-decoration-none dropdown-item" href="#">Inajá</a></li>
+                <li><a class="text-decoration-none dropdown-item" href="#">Carnaubeira da pena</a></li>
+              </ul>
+            </li>
+
+          </ul>
+        </li>
+
+        <!-- Contatos -->
+        <li class="nav-item">
+          <a class="nav-link <?php if($page=='contact'){echo 'active';}?>" href="contato.html"
+            tabindex="-1">Contatos</a>
+        </li>
+
+        <!-- Fim do menu -->
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search" />
+        <button class="btn btn-outline-success" type="submit">
+          Buscar
+        </button>
+      </form>
+    </div>
+  </div>
+</nav>

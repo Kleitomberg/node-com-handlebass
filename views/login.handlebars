@@ -1,0 +1,58 @@
+<!-- --------------------------- -->
+<!-- ----------FORM LOGIN---------- -->
+<!-- --------------------------- -->
+
+<div id="divLogin" class="container mt-5 border border-info text-dark">
+  <h1 class="text-center display-6 mb-5 mt-3 fl">
+    Fazer Login
+  </h1>
+  <!--<fieldset> </fieldset>-->
+  <form action="" class="container rounded-3 mt-0" id="formLogin">
+    <!-- <legend>Form</legend>-->
+
+    <div class="container" id="divForm">
+      <div class="mt-2">
+        <label class="form-label label-titulo" for="#email">Email</label>
+        <input class="form-control border-info teal-500 rounded-3" type="email" id="email" name="email"
+          placeholder=" Digite seu E-mail" require />
+      </div>
+
+      <div class="mt-2 mb-2">
+        <label class="form-label label-titulo" for="$senha">Senha</label>
+        <input class="form-control border-info rounded-3" type="password" id="senha" name="senha"
+          placeholder=" Digite sua Senha" require />
+      </div>
+
+      <a href="./recuperarSenha.html" class="text-start mt-4 mb-5 text-decoration-none esqueceusenha">
+        Esqueceu a senha?</a>
+    </div>
+    <div class="text-center">
+      <a href="perfilcomTabs.html" name="logar" value="logar" class="btn btn-outline-primary w-50 mt-4" id="botao"
+        type="submit">
+        Entrar
+      </a>
+
+      <div class="mt-2">
+        <p class="mb-0">
+          <i class="bi bi-lightbulb"></i>
+          Não possui uma conta?
+        </p>
+        <a href="/cadastro" class="text-decoration-none text-primary">
+          <strong class="cds"> Cadastrar</strong>
+        </a>
+
+        <div class="text-start mt-3 pt-3">
+          <p class="text-start mb-1 dicaS">
+            <img id="lampada" src="./assets/flat-color-icons_idea.png" />
+            Dica de segurança!
+          </p>
+
+          <p class="message ml-5">
+            Está em outro dispositivo? Faça login em modo anônimo para a
+            segurança dos seus dados.
+          </p>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>

@@ -1,0 +1,99 @@
+<div id="divLogin" class="container mt-5 border border-info text-dark">
+
+  <h1 class="text-center display-6 mb-5 mt-3 fl">
+    Cadastro
+  </h1>
+
+  <!--<fieldset> </fieldset>-->
+
+  <form action="/cads" method="POST" class="container rounded-3 mt-0" id="formLogin">
+
+    <!-- <legend>Form</legend>-->
+
+    <div class="container" id="divForm">
+      <label> Tipo de usuario</label>
+      <div>
+        <div class="form-check form-check-inline mt-1">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="pf" value="pf" checked />
+          <label class="form-check-label" for="flexRadioDefault1">
+            Pessoa Fisica
+          </label>
+        </div>
+
+        <div class="form-check form-check-inline mt-1">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="pj" value="pj" />
+          <label class="form-check-label" for="flexRadioDefault2">
+            Pessoa Juridica
+          </label>
+        </div>
+      </div>
+
+      <!--  input NOME-->
+      <div class="input-group mt-3">
+        <!-- <label class="form-label label-titulo" for="#nome">Nome</label> -->
+        <span class="input-group-text bg-transparent border iconesCampos border-info" id="spanCpf">
+          <i class="bi bi-person text-info"></i>
+        </span>
+
+        <input class="form-control border-info teal-500 campos" id="nome" name="fullname" type="text" id=""
+          placeholder=" Digite seu Nome" />
+      </div>
+
+      <!--  input CPF-->
+      <div class="input-group mt-4 mb-2">
+        <!-- <lab <span class="input-group-text">$</span>el class="form-label label-titulo" for="#cpf">CPF</label> -->
+        <span class="input-group-text bg-transparent border iconesCampos border-info" id="spanCpf">
+          <i class="bi bi-file-earmark-person text-info"></i>
+        </span>
+        <input class="form-control border-info campos" name="cpf" type="text" id="cpf" placeholder="CPF ou CNPJ" />
+      </div>
+
+      <!--  input EMAIL-->
+      <div class="input-group mt-4 mb-2">
+        <span class="input-group-text bg-transparent border iconesCampos border-info">
+          <i class="bi bi-at text-info"></i>
+        </span>
+        <!-- <label class="form-label label-titulo" for="#email">Email</label> -->
+        <input class="form-control border-info campos" name="email" type="email" id="email"
+          placeholder=" Digite seu E-mail" />
+      </div>
+
+      <!--  input TELFONE-->
+      <div class="input-group mt-4 mb-2">
+        <!-- <label class="form-label label-titulo" for="#numero">Numero</label> -->
+        <span class="input-group-text bg-transparent border iconesCampos border-info">
+          <i class="bi bi-telephone text-info"></i>
+        </span>
+        <input class="form-control border-info campos" name="telefone" type="text" id="numero"
+          placeholder=" Digite seu numero" />
+      </div>
+
+      <!--  input Senha-->
+      <div class="input-group mt-4 mb-2">
+        <!-- <label class="form-label mt-2" for="#senha">Senha</label> -->
+        <span class="input-group-text bg-transparent iconesCampos border-info" id="olho">
+          <i id="show_password" class="bi bi-eye-fill text-info"></i>
+        </span>
+        <input class="form-control border-info campos" name="senha" type="password" id="senha"
+          placeholder=" Digite sua Senha" />
+      </div>
+
+    </div>
+
+    <div class="text-center">
+      <button class="btn btn-outline-primary w-50 mt-4" id="botao" type="submit">
+        Cadastrar
+      </button>
+
+      <div class="mt-2 mb-2">
+        <p class="mb-0">
+          <i class="bi bi-lightbulb"></i>
+          Possui uma conta?
+        </p>
+        <a href="/login" class="pb-3 mb-3 text-decoration-none text-primary">
+          <strong class="cds lgs"> Fazer login</strong>
+        </a>
+      </div>
+    </div>
+  </form>
+</div>
